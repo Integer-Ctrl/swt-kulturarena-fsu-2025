@@ -1,0 +1,146 @@
+@base           <http://example.org/kulturarena/> .
+
+@prefix :       <http://example.org/kulturarena/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/kulturarena/> a owl:Ontology ;
+    rdfs:label "Kulturarena Ontologie"@de ;
+    rdfs:comment "Ontologie zur Repräsentation von Konzerten der Kulturarena Jena."@de .
+
+####################
+# Classes
+####################
+
+:Concert a owl:Class ;
+    rdfs:label "Konzert"@de ;
+    rdfs:comment "Öffentliche Veranstaltung, bei der ein oder mehrere Musikwerke aufgeführt werden."@de .
+
+:MusicAct a owl:Class ;
+    rdfs:label "Musikact"@de ;
+    rdfs:comment "Eine Musik-Act von einem oder mehren Musikern bei einem Konzert."@de .
+
+:SoloArtist a owl:Class ;
+    rdfs:subClassOf :MusicAct ;
+    rdfs:label "Solist*in"@de ;
+    rdfs:comment "Ein Musik-Act eines einzelnen Musikers."@de .
+
+:Ensemble a owl:Class ;
+    rdfs:subClassOf :MusicAct ;
+    rdfs:label "Ensemble"@de ;
+    rdfs:comment "Ein Musik-Act, der von mehreren Musikern dargeboten wird."@de .
+
+:Musician a owl:Class ;
+    rdfs:subClassOf :Person ;
+    rdf:label "Musiker" ;
+    rdfs:comment "Eine Person, die Musik spielt." .
+
+:Person a owl:Class ;
+    rdfs:label "Person"@de ;
+    rdfs:comment "Eine natürliche Person."@de .
+
+:Gender a owl:Class ;
+    rdfs:label "Geschlecht"@de ;
+    rdfs:comment "Ein Geschlecht, das einer Person zugeordnet ist."@de .
+
+:Female a owl:NamedIndividual , :Gender ;
+    rdfs:label "weiblich"@de ;
+    rdfs:comment "Weibliches Geschlecht."@de .
+
+:Male a owl:NamedIndividual , :Gender ;
+    rdfs:label "männlich"@de ;
+    rdfs:comment "Männliches Geschlecht."@de .
+
+:Genre a owl:Class ;
+    rdfs:label "Genre"@de ;
+    rdfs:comment "Ein Musikgenre, dem ein Musikact zugeordnet ist."@de .
+
+:Country a owl:Class ;
+    rdfs:label "Land"@de ;
+    rdfs:comment "Ein Land, aus dem ein Musikact stammt."@de .
+
+####################
+# Object Properties
+####################
+
+:hasMusicAct a owl:ObjectProperty ;
+    rdfs:label "hat Musik-Act"@de ;
+    rdfs:comment "Verknüpft ein Konzert mit einer Musik-Act, der bei diesem Konzert aufgetreten ist."@de ;
+    rdfs:domain :Concert ;
+    rdfs:range :MusicAct .
+
+:hasOriginCountry a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:label "hat Herkunftsland"@de ;
+    rdfs:comment "Verknüpft einen Musik-Act mit genau einem Herkunftsland."@de ;
+    rdfs:domain :MusicAct ;
+    rdfs:range :Country .
+
+:hasGenre a owl:ObjectProperty ;
+    rdfs:label "hat Genre"@de ;
+    rdfs:comment "Verknüpft einen Musik-Act mit einem Genre."@de ;
+    rdfs:domain :MusicAct ;
+    rdfs:range :Genre .
+
+:hasMember a owl:ObjectProperty ;
+    rdfs:label "hat Mitglied"@de ;
+    rdfs:comment "Verknüpft ein Musik-Act mit einer Person, die Mitgleid des Musik-Act ist."@de ;
+    rdfs:domain :MusicAct ;
+    rdfs:range :Person .
+
+:memberOf a owl:ObjectProperty ;
+    rdfs:label "ist Mitglied von"@de ;
+    rdfs:comment "Verknüpft eine Person mit einem Musik-Act, dessen Mitglied sie ist."@de ;
+    rdfs:domain :Person ;
+    rdfs:range :MusicAct .
+
+:hasGender a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:label "hat Geschlecht"@de ;
+    rdfs:comment "Verknüpft eine Person mit genau einem Geschlecht."@de ;
+    rdfs:domain :Person ;
+    rdfs:range :Gender .
+
+####################
+# Data properties
+####################
+
+:concertDate a owl:DatatypeProperty ;
+    rdfs:label "Konzertdatum"@de ;
+    rdfs:comment "Datum, an dem das Konzert stattgefunden hat."@de ;
+    rdfs:domain :Concert ;
+    rdfs:range xsd:date .
+
+:musicBrainzId a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "MusicBrainz Music-Act ID"@de ;
+    rdfs:comment "MusicBrainz ID eines Music-Acts."@de ;
+    rdfs:domain :MusicAct ;
+    rdfs:range xsd:string .
+
+:birthDate a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "Geburtsdatum"@de ;
+    rdfs:comment "Geburtsdatum einer Person."@de ;
+    rdfs:domain :Person ;
+    rdfs:range xsd:date .
+
+:population a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "Bevölkerungszahl"@de ;
+    rdfs:comment "Bevölkerungszahl eines Landes."@de ;
+    rdfs:domain :Country ;
+    rdfs:range xsd:integer .
+
+:actName a owl:DatatypeProperty ;
+    rdfs:label "Name des Music-Acts"@de ;
+    rdfs:comment "Name des Music-Acts."@de ;
+    rdfs:domain :MusicAct ;
+    rdfs:range xsd:string .
+
+:personName a owl:DatatypeProperty ;
+    rdfs:label "Name der Person"@de ;
+    rdfs:comment "Vor- und Zuname einer Person."@de ;
+    rdfs:domain :Person ;
+    rdfs:range xsd:string .
+
+####################
+# Individuals
+####################
