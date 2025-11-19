@@ -25,16 +25,18 @@
 :SoloArtist a owl:Class ;
     rdfs:subClassOf :MusicAct ;
     rdfs:label "Solist*in"@de ;
-    rdfs:comment "Ein Musik-Act eines einzelnen Musikers."@de .
+    rdfs:comment "Ein Musik-Act eines einzelnen Musikers."@de ;
+    owl:disjointWith :Ensemble .
 
 :Ensemble a owl:Class ;
     rdfs:subClassOf :MusicAct ;
     rdfs:label "Ensemble"@de ;
-    rdfs:comment "Ein Musik-Act, der von mehreren Musikern dargeboten wird."@de .
+    rdfs:comment "Ein Musik-Act, der von mehreren Musikern dargeboten wird."@de ;
+    owl:disjointWith :SoloArtist .
 
 :Musician a owl:Class ;
     rdfs:subClassOf :Person ;
-    rdf:label "Musiker" ;
+    rdfs:label "Musiker" ;
     rdfs:comment "Eine Person, die Musik spielt." .
 
 :Person a owl:Class ;
@@ -47,11 +49,13 @@
 
 :Female a owl:NamedIndividual , :Gender ;
     rdfs:label "weiblich"@de ;
-    rdfs:comment "Weibliches Geschlecht."@de .
+    rdfs:comment "Weibliches Geschlecht."@de ;
+    owl:disjointWith :Male .
 
 :Male a owl:NamedIndividual , :Gender ;
     rdfs:label "männlich"@de ;
-    rdfs:comment "Männliches Geschlecht."@de .
+    rdfs:comment "Männliches Geschlecht."@de ;
+    owl:disjointWith :Female .
 
 :Genre a owl:Class ;
     rdfs:label "Genre"@de ;
@@ -109,7 +113,7 @@
     rdfs:label "Konzertdatum"@de ;
     rdfs:comment "Datum, an dem das Konzert stattgefunden hat."@de ;
     rdfs:domain :Concert ;
-    rdfs:range xsd:date .
+    rdfs:range xsd:gYear .
 
 :musicBrainzId a owl:DatatypeProperty , owl:FunctionalProperty ;
     rdfs:label "MusicBrainz Music-Act ID"@de ;
@@ -144,3 +148,96 @@
 ####################
 # Individuals
 ####################
+
+# Musiker           Land                  Jahre
+#
+# BOY	            Deutschland/Schweiz   2012, 2016
+# De-Phazz          Deutschland	          2001, 2003, 2007
+# Yasmine Hamdan	Libanon	              2015
+
+# ========== Countries ==========
+
+:Germany a :Country ;
+    :population 83577140 ;
+    rdfs:label "Deutschland"@de .
+
+:Switzerland a :Country ;
+    :population 8962300 ;
+    rdfs:label "Schweiz"@de .
+
+:Lebanon a :Country ;
+    :population 5702398 ;
+    rdfs:label "Libanon"@de .
+
+# ========== Genre ==========
+
+:PopMusic a :Genre ;
+    rdfs:label "Pop Music"@de .
+
+:Jazz a :Genre ;
+    rdfs:label "Jazz"@de .
+
+# ========== BOY ==========
+
+:BOY a :Ensemble ;
+    :actName "BOY" ;
+    :musicBrainzId "2e76bad0-edf3-4a6c-ad79-db87bb5a0d35" ;
+    :hasOriginCountry :Germany , :Switzerland ;
+    :hasGenre :PopMusic ;
+    :hasMember :ValeskaSteiner , :SonjaGlass .
+
+:ValeskaSteiner a :Musician ;
+    :personName "Valeska Steiner" ;
+    :hasGender :Female ;
+    :memberOf :BOY .
+
+:SonjaGlass a :Musician ;
+    :personName "Sonja Glass" ;
+    :hasGender :Female ;
+    :memberOf :BOY .
+
+:Concert_BOY_2012 a :Concert ;
+    :concertDate "2012"^^xsd:gYear ;
+    :hasMusicAct :BOY .
+
+:Concert_BOY_2016 a :Concert ;
+    :concertDate "2016"^^xsd:gYear ;
+    :hasMusicAct :BOY .
+
+# ========== De-Phazz ==========
+
+:DePhazz a :Ensemble ;
+    :actName "De-Phazz" ;
+    :musicBrainzId "5c47ccd3-3f82-46b9-96b8-efdffc83f269" ;
+    :hasOriginCountry :Germany ;
+    :hasGenre :Jazz .
+
+:Concert_DePhazz_2001 a :Concert ;
+    :concertDate "2001"^^xsd:gYear ;
+    :hasMusicAct :DePhazz .
+
+:Concert_DePhazz_2003 a :Concert ;
+    :concertDate "2003"^^xsd:gYear ;
+    :hasMusicAct :DePhazz .
+
+:Concert_DePhazz_2007 a :Concert ;
+    :concertDate "2007"^^xsd:gYear ;
+    :hasMusicAct :DePhazz .
+
+# ========== Yasmine Hamdan ==========
+
+:YasmineHamdan_SoloArtist a :SoloArtist ;
+    :actName "Yasmine Hamdan" ;
+    :musicBrainzId "9c21e094-2fbe-4ba9-9726-891d90f561a9" ;
+    :hasOriginCountry :Lebanon ;
+    :hasGenre :PopMusic ;
+    :hasMember :YasmineHamdan .
+
+:YasmineHamdan a :Musician ;
+    :personName "Yasmine Hamdan" ;
+    :hasGender :Female ;
+    :memberOf :YasmineHamdan_SoloArtist .
+
+:Concert_YasmineHamdan_SoloArtist_2015 a :Concert ;
+    :concertDate "2015"^^xsd:gYear ;
+    :hasMusicAct :YasmineHamdan_SoloArtist .
