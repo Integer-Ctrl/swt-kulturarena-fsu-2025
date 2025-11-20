@@ -75,7 +75,7 @@
     rdfs:domain :Concert ;
     rdfs:range :MusicAct .
 
-:hasOriginCountry a owl:ObjectProperty , owl:FunctionalProperty ;
+:hasOriginCountry a owl:ObjectProperty ;
     rdfs:label "hat Herkunftsland"@de ;
     rdfs:comment "Verknüpft einen Musik-Act mit genau einem Herkunftsland."@de ;
     rdfs:domain :MusicAct ;
@@ -96,7 +96,7 @@
 :memberOf a owl:ObjectProperty ;
     rdfs:label "ist Mitglied von"@de ;
     rdfs:comment "Verknüpft eine Person mit einem Musik-Act, dessen Mitglied sie ist."@de ;
-    rdfs:domain :Person ;
+    rdfs:domain :Musician ;
     rdfs:range :MusicAct .
 
 :hasGender a owl:ObjectProperty , owl:FunctionalProperty ;
@@ -125,7 +125,7 @@
     rdfs:label "Geburtsdatum"@de ;
     rdfs:comment "Geburtsdatum einer Person."@de ;
     rdfs:domain :Person ;
-    rdfs:range xsd:date .
+    rdfs:range xsd:gYear .
 
 :population a owl:DatatypeProperty , owl:FunctionalProperty ;
     rdfs:label "Bevölkerungszahl"@de ;
@@ -148,12 +148,6 @@
 ####################
 # Individuals
 ####################
-
-# Musiker           Land                  Jahre
-#
-# BOY	            Deutschland/Schweiz   2012, 2016
-# De-Phazz          Deutschland	          2001, 2003, 2007
-# Yasmine Hamdan	Libanon	              2015
 
 # ========== Countries ==========
 

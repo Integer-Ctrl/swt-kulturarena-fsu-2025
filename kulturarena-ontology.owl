@@ -25,12 +25,6 @@
     
 
 
-    <!-- http://www.w3.org/2001/XMLSchema#date -->
-
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
-    
-
-
     <!-- http://www.w3.org/2001/XMLSchema#gYear -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
@@ -96,7 +90,6 @@
     <!-- http://example.org/kulturarena/hasOriginCountry -->
 
     <owl:ObjectProperty rdf:about="http://example.org/kulturarena/hasOriginCountry">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://example.org/kulturarena/MusicAct"/>
         <rdfs:range rdf:resource="http://example.org/kulturarena/Country"/>
         <rdfs:comment xml:lang="de">Verknüpft einen Musik-Act mit genau einem Herkunftsland.</rdfs:comment>
@@ -108,7 +101,7 @@
     <!-- http://example.org/kulturarena/memberOf -->
 
     <owl:ObjectProperty rdf:about="http://example.org/kulturarena/memberOf">
-        <rdfs:domain rdf:resource="http://example.org/kulturarena/Person"/>
+        <rdfs:domain rdf:resource="http://example.org/kulturarena/Musician"/>
         <rdfs:range rdf:resource="http://example.org/kulturarena/MusicAct"/>
         <rdfs:comment xml:lang="de">Verknüpft eine Person mit einem Musik-Act, dessen Mitglied sie ist.</rdfs:comment>
         <rdfs:label xml:lang="de">ist Mitglied von</rdfs:label>
@@ -143,7 +136,7 @@
     <owl:DatatypeProperty rdf:about="http://example.org/kulturarena/birthDate">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://example.org/kulturarena/Person"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
         <rdfs:comment xml:lang="de">Geburtsdatum einer Person.</rdfs:comment>
         <rdfs:label xml:lang="de">Geburtsdatum</rdfs:label>
     </owl:DatatypeProperty>
