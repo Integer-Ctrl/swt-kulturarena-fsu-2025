@@ -1,0 +1,9 @@
+PREFIX ex: <http://example.org/kulturarena/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?musicAct ?actName WHERE {
+  ?concert a ex:Concert .
+  ?concert ex:concertDate "2015"^^xsd:gYear ;
+           ex:hasMusicAct ?musicAct .
+  ?musicAct ex:actName ?actName .
+}

@@ -1,0 +1,7 @@
+PREFIX ex: <http://example.org/kulturarena/>
+
+SELECT (COUNT(?concert) AS ?count) WHERE {
+  ?concert a ex:Concert ;
+           ex:hasMusicAct ?musicAct .
+  ?musicAct ex:actName "BOY" .
+}

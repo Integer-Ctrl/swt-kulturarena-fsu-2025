@@ -1,0 +1,19 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://example.org/kulturarena/>
+
+SELECT ?musicAct ?actName ?countryName WHERE {
+  # Land mit höchster Einwohnerzahl
+  {
+    SELECT ?country WHERE {
+      ?musicAct ex:hasOriginCountry ?country .
+      ?country ex:population ?population .
+    }
+    ORDER BY DESC(?population)
+    LIMIT 1
+  }
+
+  # Musik-Acts aus diesem Land
+  ?musicAct ex:hasOriginCountry ?country ;
+       ex:actName ?actName .
+  ?country rdfs:label ?countryName .
+}

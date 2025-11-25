@@ -1,0 +1,25 @@
+PREFIX ex: <http://example.org/kulturarena/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?musicAct (MAX(?diff) AS ?maxGap) WHERE {
+  # Erstes Jahr
+  ?concert1 ex:hasMusicAct ?musicAct ;
+            ex:concertDate ?y1 .
+
+  # Späteres Jahr
+  ?concert2 ex:hasMusicAct ?musicAct ;
+            ex:concertDate ?y2 .
+  FILTER(xsd:integer(?y2) > xsd:integer(?y1))
+
+  # y2 muss das nächste spätere Jahr sein
+  FILTER NOT EXISTS {
+    ?concert3 ex:hasMusicAct ?musicAct ;
+              ex:concertDate ?y3 .
+    FILTER(xsd:integer(?y3) > xsd:integer(?y1) && xsd:integer(?y3) < xsd:integer(?y2))
+  }
+
+  # Differenz berechnen
+  BIND(xsd:integer(?y2) - xsd:integer(?y1) AS ?diff)
+}
+GROUP BY ?musicAct
+ORDER BY DESC(?maxGap)

@@ -202,7 +202,7 @@
 
 :DePhazz a :Ensemble ;
     :actName "De-Phazz" ;
-    :musicBrainzId "5c47ccd3-3f82-46b9-96b8-efdffc83f269" ;
+    :musicBrainzId "5c47ccd3-3f82-46b9-96b8-efdffc83f269"^^xsd:string ;
     :hasOriginCountry :Germany ;
     :hasGenre :Jazz .
 
@@ -222,7 +222,7 @@
 
 :YasmineHamdan_SoloArtist a :SoloArtist ;
     :actName "Yasmine Hamdan" ;
-    :musicBrainzId "9c21e094-2fbe-4ba9-9726-891d90f561a9" ;
+    :musicBrainzId "9c21e094-2fbe-4ba9-9726-891d90f561a9"^^xsd:string ;
     :hasOriginCountry :Lebanon ;
     :hasGenre :PopMusic ;
     :hasMember :YasmineHamdan .

@@ -1,0 +1,12 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://example.org/kulturarena/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?country ?countryName (COUNT(DISTINCT ?concert) AS ?count) WHERE {
+  ?concert a ex:Concert ;
+           ex:concertDate "2015"^^xsd:gYear ;
+           ex:hasMusicAct ?act .
+  ?act ex:hasOriginCountry ?country .
+  ?country rdfs:label ?countryName .
+}
+GROUP BY ?country ?countryName

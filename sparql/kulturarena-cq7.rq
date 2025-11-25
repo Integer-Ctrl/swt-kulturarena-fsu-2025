@@ -1,0 +1,23 @@
+PREFIX ex: <http://example.org/kulturarena/>
+
+SELECT 	?year
+		((COUNT(?female) * 100.0) / (COUNT(?female) + COUNT(?male)) AS ?femalePercent)
+		((COUNT(?male) * 100.0) / (COUNT(?female) + COUNT(?male)) AS ?malePercent)
+WHERE {
+  ?concert ex:hasMusicAct ?musicAct ;
+           ex:concertDate ?year .
+  
+  ?musicAct ex:hasMember ?person .
+
+  # Gender classification via OPTIONAL
+  OPTIONAL {
+    ?person ex:hasGender ex:Female .
+    BIND(?person AS ?female)
+  }
+  OPTIONAL {
+    ?person ex:hasGender ex:Male .
+    BIND(?person AS ?male)
+  }
+}
+GROUP BY ?year
+ORDER BY ?year
