@@ -1,0 +1,17 @@
+PREFIX ex: <http://example.org/kulturarena/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?year (AVG(?age) AS ?avgAge) WHERE {
+
+  SELECT DISTINCT ?year ?person (xsd:integer(?year) - xsd:integer(?birthYear) AS ?age) WHERE {
+    ?concert ex:concertDate ?year ;
+           ex:hasMusicAct ?musicAct .
+
+    ?musicAct ex:hasMember ?person .
+
+    ?person ex:birthDate ?birthYear .
+  }
+}
+GROUP BY ?year
+ORDER BY DESC(?avgAge)
+LIMIT 1

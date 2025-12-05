@@ -1,8 +1,8 @@
 PREFIX ex: <http://example.org/kulturarena/>
 
 SELECT 	?year
-    ((COUNT(?female) * 100.0) / COUNT(?person) AS ?femalePercent)
-    ((COUNT(?male) * 100.0) / COUNT(?person) AS ?malePercent)
+    ((COUNT(DISTINCT ?female) * 100.0) / COUNT(DISTINCT ?person) AS ?femalePercent)
+    ((COUNT(DISTINCT ?male) * 100.0) / COUNT(DISTINCT ?person) AS ?malePercent)
 WHERE {
   ?concert ex:hasMusicAct ?musicAct ;
            ex:concertDate ?year .
