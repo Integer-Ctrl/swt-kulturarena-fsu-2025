@@ -1,6 +1,6 @@
 # SPARQL Queries for Competency Questions
 
-FFor competency questions seven and nine, two different queries are provided since the questions can be interpreted in different ways.
+For competency questions seven and nine, two different queries are provided since the questions can be interpreted in different ways.
 
 ## CQ7
 

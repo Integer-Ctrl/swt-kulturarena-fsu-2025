@@ -1,0 +1,48 @@
+BASE <http://example.org/kulturarena/>
+
+PREFIX :       <http://example.org/kulturarena/>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+
+PREFIX iter: <http://w3id.org/sparql-generate/iter/>
+
+GENERATE {
+  ?actIRI a <MusicAct> ;
+    rdfs:label "{?name}"@de ;
+    :actName "{?name}"@de ;
+    <hasOriginCountry> ?countryIRI .
+
+  ?countryIRI a <Country> ;
+    rdfs:label "{?country}"@de .
+
+  GENERATE {
+    ?concert a <Concert> ;
+      <concertDate> "{?year}"^^xsd:gYear ;
+      <hasMusicAct> ?actIRI .
+  }
+  ITERATOR iter:Split(?years, ", *") AS ?year WHERE {
+    FILTER (?year != "")
+    BIND(<{?actId}{?year}> AS ?concert)
+  } .
+}
+
+ITERATOR iter:CSSPath(
+  <https://web.archive.org/web/20250425212752/https://www.kulturarena.de/kuenstler-zu-gast-in-jena.html>,
+  "table.history tr:has(td + td)",
+  "td:nth-child(1)/text()",
+  "td:nth-child(2)/text()",
+  "td:nth-child(3)/text()"
+) AS ?row ?name ?countries ?years
+ITERATOR iter:Split(REPLACE(?countries, "/", ","), ", *") AS ?country
+WHERE {
+  FILTER (?name != "")
+  FILTER (?country != "")
+
+  # Act: nur a-zA-Z0-9
+  BIND(LCASE(REPLACE(?name, "[^a-zA-Z0-9]", "")) AS ?actId)
+  BIND(IRI(CONCAT(STR(:), ?actId)) AS ?actIRI)
+
+  # Country: nur a-zA-Z0-9 (ohne LCASE, wenn du Großbuchstaben willst)
+  BIND(REPLACE(?country, "[^a-zA-Z0-9]", "") AS ?countryId)
+  BIND(IRI(CONCAT(STR(:), ?countryId)) AS ?countryIRI)
+}
