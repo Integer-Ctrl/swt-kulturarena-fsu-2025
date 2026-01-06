@@ -5,6 +5,7 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:    <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd:     <http://www.wikidata.org/entity/> .
 
 <http://example.org/kulturarena/> a owl:Ontology ;
     rdfs:label "Kulturarena Ontologie"@de ;
@@ -151,15 +152,15 @@
 
 # ========== Countries ==========
 
-:Germany a :Country ;
+:Deutschland a :Country ;
     :population 83577140 ;
     rdfs:label "Deutschland"@de .
 
-:Switzerland a :Country ;
+:Schweiz a :Country ;
     :population 8962300 ;
     rdfs:label "Schweiz"@de .
 
-:Lebanon a :Country ;
+:Libanon a :Country ;
     :population 5702398 ;
     rdfs:label "Libanon"@de .
 
@@ -173,10 +174,11 @@
 
 # ========== BOY ==========
 
-:BOY a :Ensemble ;
-    :actName "BOY" ;
-    :musicBrainzId "2e76bad0-edf3-4a6c-ad79-db87bb5a0d35" ;
-    :hasOriginCountry :Germany , :Switzerland ;
+:BOY a :Ensemble, :MusicAct ;
+    rdfs:label "BOY"@de ;
+    :actName "BOY"@de ;
+    :musicBrainzId "2e76bad0-edf3-4a6c-ad79-db87bb5a0d35"^^xsd:string ;
+    :hasOriginCountry :Deutschland , :Schweiz ;
     :hasGenre :PopMusic ;
     :hasMember :ValeskaSteiner , :SonjaGlass .
 
@@ -200,10 +202,11 @@
 
 # ========== De-Phazz ==========
 
-:DePhazz a :Ensemble ;
-    :actName "De-Phazz" ;
+:DePhazz a :Ensemble, :MusicAct ;
+    rdfs:label "De-Phazz"@de ;
+    :actName "De-Phazz"@de ;
     :musicBrainzId "5c47ccd3-3f82-46b9-96b8-efdffc83f269"^^xsd:string ;
-    :hasOriginCountry :Germany ;
+    :hasOriginCountry :Deutschland ;
     :hasGenre :Jazz .
 
 :Concert_DePhazz_2001 a :Concert ;
@@ -220,10 +223,11 @@
 
 # ========== Yasmine Hamdan ==========
 
-:YasmineHamdan_SoloArtist a :SoloArtist ;
-    :actName "Yasmine Hamdan" ;
+:YasmineHamdan_SoloArtist a :SoloArtist, :MusicAct ;
+    rdfs:label "Yasmine Hamdan"@de ;
+    :actName "Yasmine Hamdan"@de ;
     :musicBrainzId "9c21e094-2fbe-4ba9-9726-891d90f561a9"^^xsd:string ;
-    :hasOriginCountry :Lebanon ;
+    :hasOriginCountry :Libanon ;
     :hasGenre :PopMusic ;
     :hasMember :YasmineHamdan .
 
