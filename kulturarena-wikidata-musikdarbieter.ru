@@ -74,9 +74,6 @@ WHERE {
     BIND(:Male AS ?genderInd)
   }
 
-  # genreIRI nur binden, wenn genreLabel existiert
-  OPTIONAL {
-    FILTER(BOUND(?genreLabel))
-    BIND(IRI(CONCAT(STR(:), "Genre_", REPLACE(STR(?genreLabel), "[^a-zA-Z0-9]", ""))) AS ?genreIRI)
-  }
+  # genreIRI
+  BIND(IRI(CONCAT(STR(:), "Genre_", REPLACE(STR(?genreLabel), "[^a-zA-Z0-9]", ""))) AS ?genreIRI)
 }

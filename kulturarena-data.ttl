@@ -483,6 +483,498 @@ xsd:gYear rdf:type rdfs:Datatype .
     rdfs:label "GB"@de .
 
 
+###  http://example.org/kulturarena/Genre_AfrikanischePopulrmusik
+:Genre_AfrikanischePopulrmusik rdf:type owl:NamedIndividual ,
+                                        :Genre ;
+                               rdfs:label "Afrikanische Populärmusik"@de .
+
+
+###  http://example.org/kulturarena/Genre_Afrobeat
+:Genre_Afrobeat rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Afrobeat"@de .
+
+
+###  http://example.org/kulturarena/Genre_Akustikversion
+:Genre_Akustikversion rdf:type owl:NamedIndividual ,
+                               :Genre ;
+                      rdfs:label "Akustikversion"@de .
+
+
+###  http://example.org/kulturarena/Genre_AlternativeRock
+:Genre_AlternativeRock rdf:type owl:NamedIndividual ,
+                                :Genre ;
+                       rdfs:label "Alternative Rock"@de .
+
+
+###  http://example.org/kulturarena/Genre_Ambient
+:Genre_Ambient rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Ambient"@de .
+
+
+###  http://example.org/kulturarena/Genre_AnadoluRock
+:Genre_AnadoluRock rdf:type owl:NamedIndividual ,
+                            :Genre ;
+                   rdfs:label "Anadolu Rock"@de .
+
+
+###  http://example.org/kulturarena/Genre_Artrock
+:Genre_Artrock rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Artrock"@de .
+
+
+###  http://example.org/kulturarena/Genre_Austropop
+:Genre_Austropop rdf:type owl:NamedIndividual ,
+                          :Genre ;
+                 rdfs:label "Austropop"@de .
+
+
+###  http://example.org/kulturarena/Genre_Avantgarde
+:Genre_Avantgarde rdf:type owl:NamedIndividual ,
+                           :Genre ;
+                  rdfs:label "Avantgarde"@de .
+
+
+###  http://example.org/kulturarena/Genre_Bebop
+:Genre_Bebop rdf:type owl:NamedIndividual ,
+                      :Genre ;
+             rdfs:label "Bebop"@de .
+
+
+###  http://example.org/kulturarena/Genre_Blues
+:Genre_Blues rdf:type owl:NamedIndividual ,
+                      :Genre ;
+             rdfs:label "Blues"@de .
+
+
+###  http://example.org/kulturarena/Genre_Bolero
+:Genre_Bolero rdf:type owl:NamedIndividual ,
+                       :Genre ;
+              rdfs:label "Bolero"@de .
+
+
+###  http://example.org/kulturarena/Genre_BossaNova
+:Genre_BossaNova rdf:type owl:NamedIndividual ,
+                          :Genre ;
+                 rdfs:label "Bossa Nova"@de .
+
+
+###  http://example.org/kulturarena/Genre_Cabaret
+:Genre_Cabaret rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Cabaret"@de .
+
+
+###  http://example.org/kulturarena/Genre_CapeJazz
+:Genre_CapeJazz rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Cape-Jazz"@de .
+
+
+###  http://example.org/kulturarena/Genre_ChabiAlgerien
+:Genre_ChabiAlgerien rdf:type owl:NamedIndividual ,
+                              :Genre ;
+                     rdfs:label "Chaâbi (Algerien)"@de .
+
+
+###  http://example.org/kulturarena/Genre_Chanson
+:Genre_Chanson rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Chanson"@de .
+
+
+###  http://example.org/kulturarena/Genre_CoolJazz
+:Genre_CoolJazz rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Cool Jazz"@de .
+
+
+###  http://example.org/kulturarena/Genre_Cumbia
+:Genre_Cumbia rdf:type owl:NamedIndividual ,
+                       :Genre ;
+              rdfs:label "Cumbia"@de .
+
+
+###  http://example.org/kulturarena/Genre_DeutscherHipHop
+:Genre_DeutscherHipHop rdf:type owl:NamedIndividual ,
+                                :Genre ;
+                       rdfs:label "Deutscher Hip-Hop"@de .
+
+
+###  http://example.org/kulturarena/Genre_Europop
+:Genre_Europop rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Europop"@de .
+
+
+###  http://example.org/kulturarena/Genre_Experimentalmusik
+:Genre_Experimentalmusik rdf:type owl:NamedIndividual ,
+                                  :Genre ;
+                         rdfs:label "Experimentalmusik"@de .
+
+
+###  http://example.org/kulturarena/Genre_Folk
+:Genre_Folk rdf:type owl:NamedIndividual ,
+                     :Genre ;
+            rdfs:label "Folk"@de .
+
+
+###  http://example.org/kulturarena/Genre_FolkPop
+:Genre_FolkPop rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Folk Pop"@de .
+
+
+###  http://example.org/kulturarena/Genre_FolkRock
+:Genre_FolkRock rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Folk-Rock"@de .
+
+
+###  http://example.org/kulturarena/Genre_Forr
+:Genre_Forr rdf:type owl:NamedIndividual ,
+                     :Genre ;
+            rdfs:label "Forró"@de .
+
+
+###  http://example.org/kulturarena/Genre_Frevo
+:Genre_Frevo rdf:type owl:NamedIndividual ,
+                      :Genre ;
+             rdfs:label "Frevo"@de .
+
+
+###  http://example.org/kulturarena/Genre_Funk
+:Genre_Funk rdf:type owl:NamedIndividual ,
+                     :Genre ;
+            rdfs:label "Funk"@de .
+
+
+###  http://example.org/kulturarena/Genre_Fusion
+:Genre_Fusion rdf:type owl:NamedIndividual ,
+                       :Genre ;
+              rdfs:label "Fusion"@de .
+
+
+###  http://example.org/kulturarena/Genre_GangstaRap
+:Genre_GangstaRap rdf:type owl:NamedIndividual ,
+                           :Genre ;
+                  rdfs:label "Gangsta-Rap"@de .
+
+
+###  http://example.org/kulturarena/Genre_Gospelmusik
+:Genre_Gospelmusik rdf:type owl:NamedIndividual ,
+                            :Genre ;
+                   rdfs:label "Gospelmusik"@de .
+
+
+###  http://example.org/kulturarena/Genre_HipHop
+:Genre_HipHop rdf:type owl:NamedIndividual ,
+                       :Genre ;
+              rdfs:label "Hip-Hop"@de .
+
+
+###  http://example.org/kulturarena/Genre_IndiePop
+:Genre_IndiePop rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Indie-Pop"@de .
+
+
+###  http://example.org/kulturarena/Genre_IndieRock
+:Genre_IndieRock rdf:type owl:NamedIndividual ,
+                          :Genre ;
+                 rdfs:label "Indie-Rock"@de .
+
+
+###  http://example.org/kulturarena/Genre_Jazz
+:Genre_Jazz rdf:type owl:NamedIndividual ,
+                     :Genre ;
+            rdfs:label "Jazz"@de .
+
+
+###  http://example.org/kulturarena/Genre_JazzRap
+:Genre_JazzRap rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Jazz-Rap"@de .
+
+
+###  http://example.org/kulturarena/Genre_Jazzfunk
+:Genre_Jazzfunk rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Jazzfunk"@de .
+
+
+###  http://example.org/kulturarena/Genre_Kabarett
+:Genre_Kabarett rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Kabarett"@de .
+
+
+###  http://example.org/kulturarena/Genre_Klassizismus
+:Genre_Klassizismus rdf:type owl:NamedIndividual ,
+                             :Genre ;
+                    rdfs:label "Klassizismus"@de .
+
+
+###  http://example.org/kulturarena/Genre_LatinJazz
+:Genre_LatinJazz rdf:type owl:NamedIndividual ,
+                          :Genre ;
+                 rdfs:label "Latin Jazz"@de .
+
+
+###  http://example.org/kulturarena/Genre_LatinPop
+:Genre_LatinPop rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Latin Pop"@de .
+
+
+###  http://example.org/kulturarena/Genre_Lied
+:Genre_Lied rdf:type owl:NamedIndividual ,
+                     :Genre ;
+            rdfs:label "Lied"@de .
+
+
+###  http://example.org/kulturarena/Genre_Marabi
+:Genre_Marabi rdf:type owl:NamedIndividual ,
+                       :Genre ;
+              rdfs:label "Marabi"@de .
+
+
+###  http://example.org/kulturarena/Genre_MinimalMusic
+:Genre_MinimalMusic rdf:type owl:NamedIndividual ,
+                             :Genre ;
+                    rdfs:label "Minimal Music"@de .
+
+
+###  http://example.org/kulturarena/Genre_MsicaPopularBrasileira
+:Genre_MsicaPopularBrasileira rdf:type owl:NamedIndividual ,
+                                       :Genre ;
+                              rdfs:label "Música Popular Brasileira"@de .
+
+
+###  http://example.org/kulturarena/Genre_NeueDeutscheWelle
+:Genre_NeueDeutscheWelle rdf:type owl:NamedIndividual ,
+                                  :Genre ;
+                         rdfs:label "Neue Deutsche Welle"@de .
+
+
+###  http://example.org/kulturarena/Genre_NuJazz
+:Genre_NuJazz rdf:type owl:NamedIndividual ,
+                       :Genre ;
+              rdfs:label "Nu Jazz"@de .
+
+
+###  http://example.org/kulturarena/Genre_PopRock
+:Genre_PopRock rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Pop-Rock"@de .
+
+
+###  http://example.org/kulturarena/Genre_Popmusik
+:Genre_Popmusik rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Popmusik"@de .
+
+
+###  http://example.org/kulturarena/Genre_Postbop
+:Genre_Postbop rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Post bop"@de .
+
+
+###  http://example.org/kulturarena/Genre_ProgressiveRock
+:Genre_ProgressiveRock rdf:type owl:NamedIndividual ,
+                                :Genre ;
+                       rdfs:label "Progressive Rock"@de .
+
+
+###  http://example.org/kulturarena/Genre_Punk
+:Genre_Punk rdf:type owl:NamedIndividual ,
+                     :Genre ;
+            rdfs:label "Punk"@de .
+
+
+###  http://example.org/kulturarena/Genre_Q17111414
+:Genre_Q17111414 rdf:type owl:NamedIndividual ,
+                          :Genre ;
+                 rdfs:label "Q17111414" .
+
+
+###  http://example.org/kulturarena/Genre_Q2332751
+:Genre_Q2332751 rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Q2332751" .
+
+
+###  http://example.org/kulturarena/Genre_Q2420447
+:Genre_Q2420447 rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Q2420447" .
+
+
+###  http://example.org/kulturarena/Genre_Q7972788
+:Genre_Q7972788 rdf:type owl:NamedIndividual ,
+                         :Genre ;
+                rdfs:label "Q7972788" .
+
+
+###  http://example.org/kulturarena/Genre_Q846833
+:Genre_Q846833 rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Q846833" .
+
+
+###  http://example.org/kulturarena/Genre_Ra
+:Genre_Ra rdf:type owl:NamedIndividual ,
+                   :Genre ;
+          rdfs:label "Raï"@de .
+
+
+###  http://example.org/kulturarena/Genre_Ragga
+:Genre_Ragga rdf:type owl:NamedIndividual ,
+                      :Genre ;
+             rdfs:label "Ragga"@de .
+
+
+###  http://example.org/kulturarena/Genre_Rap
+:Genre_Rap rdf:type owl:NamedIndividual ,
+                    :Genre ;
+           rdfs:label "Rap"@de .
+
+
+###  http://example.org/kulturarena/Genre_Reggae
+:Genre_Reggae rdf:type owl:NamedIndividual ,
+                       :Genre ;
+              rdfs:label "Reggae"@de .
+
+
+###  http://example.org/kulturarena/Genre_RhythmandBlues
+:Genre_RhythmandBlues rdf:type owl:NamedIndividual ,
+                               :Genre ;
+                      rdfs:label "Rhythm and Blues"@de .
+
+
+###  http://example.org/kulturarena/Genre_Rockmusik
+:Genre_Rockmusik rdf:type owl:NamedIndividual ,
+                          :Genre ;
+                 rdfs:label "Rockmusik"@de .
+
+
+###  http://example.org/kulturarena/Genre_Sardana
+:Genre_Sardana rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Sardana"@de .
+
+
+###  http://example.org/kulturarena/Genre_SonCubano
+:Genre_SonCubano rdf:type owl:NamedIndividual ,
+                          :Genre ;
+                 rdfs:label "Son Cubano"@de .
+
+
+###  http://example.org/kulturarena/Genre_Soul
+:Genre_Soul rdf:type owl:NamedIndividual ,
+                     :Genre ;
+            rdfs:label "Soul"@de .
+
+
+###  http://example.org/kulturarena/Genre_Swing
+:Genre_Swing rdf:type owl:NamedIndividual ,
+                      :Genre ;
+             rdfs:label "Swing"@de .
+
+
+###  http://example.org/kulturarena/Genre_Tango
+:Genre_Tango rdf:type owl:NamedIndividual ,
+                      :Genre ;
+             rdfs:label "Tango"@de .
+
+
+###  http://example.org/kulturarena/Genre_Tichumaren
+:Genre_Tichumaren rdf:type owl:NamedIndividual ,
+                           :Genre ;
+                  rdfs:label "Tichumaren"@de .
+
+
+###  http://example.org/kulturarena/Genre_TripHop
+:Genre_TripHop rdf:type owl:NamedIndividual ,
+                        :Genre ;
+               rdfs:label "Trip-Hop"@de .
+
+
+###  http://example.org/kulturarena/Genre_Volksmusik
+:Genre_Volksmusik rdf:type owl:NamedIndividual ,
+                           :Genre ;
+                  rdfs:label "Volksmusik"@de .
+
+
+###  http://example.org/kulturarena/Genre_Weise
+:Genre_Weise rdf:type owl:NamedIndividual ,
+                      :Genre ;
+             rdfs:label "Weise"@de .
+
+
+###  http://example.org/kulturarena/Genre_Weltmusik
+:Genre_Weltmusik rdf:type owl:NamedIndividual ,
+                          :Genre ;
+                 rdfs:label "Weltmusik"@de .
+
+
+###  http://example.org/kulturarena/Genre_Worldbeat
+:Genre_Worldbeat rdf:type owl:NamedIndividual ,
+                          :Genre ;
+                 rdfs:label "Worldbeat"@de .
+
+
+###  http://example.org/kulturarena/Genre_Zouk
+:Genre_Zouk rdf:type owl:NamedIndividual ,
+                     :Genre ;
+            rdfs:label "Zouk"@de .
+
+
+###  http://example.org/kulturarena/Genre_afrikanischeMusik
+:Genre_afrikanischeMusik rdf:type owl:NamedIndividual ,
+                                  :Genre ;
+                         rdfs:label "afrikanische Musik"@de .
+
+
+###  http://example.org/kulturarena/Genre_brasilianischeMusik
+:Genre_brasilianischeMusik rdf:type owl:NamedIndividual ,
+                                    :Genre ;
+                           rdfs:label "brasilianische Musik"@de .
+
+
+###  http://example.org/kulturarena/Genre_elektronischeMusik
+:Genre_elektronischeMusik rdf:type owl:NamedIndividual ,
+                                   :Genre ;
+                          rdfs:label "elektronische Musik"@de .
+
+
+###  http://example.org/kulturarena/Genre_klassischeMusik
+:Genre_klassischeMusik rdf:type owl:NamedIndividual ,
+                                :Genre ;
+                       rdfs:label "klassische Musik"@de .
+
+
+###  http://example.org/kulturarena/Genre_lateinamerikanischeMusik
+:Genre_lateinamerikanischeMusik rdf:type owl:NamedIndividual ,
+                                         :Genre ;
+                                rdfs:label "lateinamerikanische Musik"@de .
+
+
+###  http://example.org/kulturarena/Genre_populreMusik
+:Genre_populreMusik rdf:type owl:NamedIndividual ,
+                             :Genre ;
+                    rdfs:label "populäre Musik"@de .
+
+
+###  http://example.org/kulturarena/Genre_zeitgenssischeklassischeMusik
+:Genre_zeitgenssischeklassischeMusik rdf:type owl:NamedIndividual ,
+                                              :Genre ;
+                                     rdfs:label "zeitgenössische klassische Musik"@de .
+
+
 ###  http://example.org/kulturarena/Ghana
 :Ghana rdf:type owl:NamedIndividual ,
                 :Country ;
@@ -947,7 +1439,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :YasmineHamdan_SoloArtist rdf:type owl:NamedIndividual ,
                                    :MusicAct ,
                                    :SoloArtist ;
-                          :hasGenre :PopMusic ;
+                          :hasGenre :Genre_Popmusik ,
+                                    :PopMusic ;
                           :hasMember :YasmineHamdan ,
                                      <http://www.wikidata.org/entity/Q195788> ;
                           :hasOriginCountry :Libanon ;
@@ -1002,6 +1495,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :abdullahibrahim rdf:type owl:NamedIndividual ,
                           :MusicAct ,
                           :SoloArtist ;
+                 :hasGenre :Genre_Bebop ,
+                           :Genre_CapeJazz ,
+                           :Genre_Jazz ;
                  :hasMember <http://www.wikidata.org/entity/Q317677> ;
                  :hasOriginCountry :Sdafrika ;
                  :actName "Abdullah Ibrahim"@de ;
@@ -1191,6 +1687,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :alicephoebelou rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_Blues ,
+                          :Genre_IndiePop ;
                 :hasMember <http://www.wikidata.org/entity/Q26710833> ;
                 :hasOriginCountry :Deutschland ,
                                   :Sdafrika ;
@@ -1382,6 +1880,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :andreasdorau rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_NeueDeutscheWelle ;
               :hasMember <http://www.wikidata.org/entity/Q90283> ;
               :hasOriginCountry :Deutschland ;
               :actName "Andreas Dorau"@de ;
@@ -1452,6 +1951,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :angelobranduardi rdf:type owl:NamedIndividual ,
                            :MusicAct ,
                            :SoloArtist ;
+                  :hasGenre :Genre_Popmusik ;
                   :hasMember <http://www.wikidata.org/entity/Q25153> ;
                   :hasOriginCountry :Italien ;
                   :actName "Angelo Branduardi"@de ;
@@ -1470,6 +1970,11 @@ xsd:gYear rdf:type rdfs:Datatype .
 :angliquekidjo rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Gospelmusik ,
+                         :Genre_Jazz ,
+                         :Genre_Weltmusik ,
+                         :Genre_Zouk ,
+                         :Genre_lateinamerikanischeMusik ;
                :hasMember <http://www.wikidata.org/entity/Q231276> ;
                :hasOriginCountry :Benin ,
                                  :Frankreich ;
@@ -1544,6 +2049,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :annadepenbusch rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_Jazz ,
+                          :Genre_Popmusik ;
                 :hasMember <http://www.wikidata.org/entity/Q530931> ;
                 :hasOriginCountry :Deutschland ;
                 :actName "Anna Depenbusch"@de ;
@@ -1592,6 +2099,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :annaternheim rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_PopRock ;
               :hasMember <http://www.wikidata.org/entity/Q271602> ;
               :hasOriginCountry :Schweden ;
               :actName "Anna Ternheim"@de ;
@@ -1789,6 +2297,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :asafavidan rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_Folk ,
+                      :Genre_IndieRock ;
             :hasMember <http://www.wikidata.org/entity/Q259788> ;
             :hasOriginCountry :Israel ;
             :actName "Asaf Avidan"@de ;
@@ -1889,6 +2399,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :azizamustafazadeh rdf:type owl:NamedIndividual ,
                             :MusicAct ,
                             :SoloArtist ;
+                   :hasGenre :Genre_Jazz ;
                    :hasMember <http://www.wikidata.org/entity/Q234304> ;
                    :hasOriginCountry :Aserbaidschan ;
                    :actName "Aziza Mustafa Zadeh"@de ;
@@ -1921,6 +2432,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :baabamaal rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_afrikanischeMusik ;
            :hasMember <http://www.wikidata.org/entity/Q684021> ;
            :hasOriginCountry :Senegal ;
            :actName "Baaba Maal"@de ;
@@ -1969,6 +2481,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :badiassad rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Jazz ;
            :hasMember <http://www.wikidata.org/entity/Q302757> ;
            :hasOriginCountry :Brasilien ;
            :actName "Badi Assad"@de ;
@@ -2115,6 +2628,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :battistalena rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Jazz ;
               :hasMember <http://www.wikidata.org/entity/Q810967> ;
               :hasOriginCountry :Italien ;
               :actName "Battista Lena"@de ;
@@ -2389,6 +2903,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :birlilagrne rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_Jazz ,
+                       :Genre_Postbop ;
              :hasMember <http://www.wikidata.org/entity/Q502307> ;
              :hasOriginCountry :Frankreich ;
              :actName "Biréli Lagrène"@de ;
@@ -3072,6 +3588,15 @@ xsd:gYear rdf:type rdfs:Datatype .
 :chicocsar rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Avantgarde ,
+                     :Genre_Folk ,
+                     :Genre_Forr ,
+                     :Genre_Frevo ,
+                     :Genre_Fusion ,
+                     :Genre_MsicaPopularBrasileira ,
+                     :Genre_Q2332751 ,
+                     :Genre_Reggae ,
+                     :Genre_brasilianischeMusik ;
            :hasMember <http://www.wikidata.org/entity/Q1072227> ;
            :hasOriginCountry :Brasilien ;
            :actName "Chico César"@de ;
@@ -3151,6 +3676,12 @@ xsd:gYear rdf:type rdfs:Datatype .
 :chillygonzales rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_HipHop ,
+                          :Genre_Jazz ,
+                          :Genre_JazzRap ,
+                          :Genre_Popmusik ,
+                          :Genre_elektronischeMusik ,
+                          :Genre_klassischeMusik ;
                 :hasMember <http://www.wikidata.org/entity/Q1532874> ;
                 :hasOriginCountry :Kanada ;
                 :actName "Chilly Gonzales"@de ;
@@ -3274,6 +3805,10 @@ xsd:gYear rdf:type rdfs:Datatype .
 :clueso rdf:type owl:NamedIndividual ,
                  :MusicAct ,
                  :SoloArtist ;
+        :hasGenre :Genre_DeutscherHipHop ,
+                  :Genre_Popmusik ,
+                  :Genre_Reggae ,
+                  :Genre_elektronischeMusik ;
         :hasMember <http://www.wikidata.org/entity/Q67438> ;
         :hasOriginCountry :Deutschland ;
         :actName "Clueso"@de ;
@@ -3509,6 +4044,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :dangerdan rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_GangstaRap ,
+                     :Genre_HipHop ,
+                     :Genre_Rap ;
            :hasMember <http://www.wikidata.org/entity/Q54892284> ;
            :hasOriginCountry :Deutschland ;
            :actName "Danger Dan"@de ;
@@ -3880,6 +4418,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :dillon rdf:type owl:NamedIndividual ,
                  :MusicAct ,
                  :SoloArtist ;
+        :hasGenre :Genre_Popmusik ;
         :hasMember <http://www.wikidata.org/entity/Q1225595> ;
         :hasOriginCountry :Deutschland ;
         :actName "Dillon"@de ;
@@ -3958,6 +4497,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :dota rdf:type owl:NamedIndividual ,
                :MusicAct ,
                :SoloArtist ;
+      :hasGenre :Genre_BossaNova ,
+                :Genre_Jazz ;
       :hasMember <http://www.wikidata.org/entity/Q108991> ;
       :hasOriginCountry :Deutschland ;
       :actName "Dota"@de ;
@@ -4100,6 +4641,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :ebow rdf:type owl:NamedIndividual ,
                :MusicAct ,
                :SoloArtist ;
+      :hasGenre :Genre_HipHop ,
+                :Genre_RhythmandBlues ;
       :hasMember <http://www.wikidata.org/entity/Q20829880> ;
       :hasOriginCountry :Deutschland ;
       :actName "Ebow"@de ;
@@ -4118,6 +4661,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :edsoncordeiro rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Jazz ,
+                         :Genre_Popmusik ;
                :hasMember <http://www.wikidata.org/entity/Q956262> ;
                :hasOriginCountry :Brasilien ;
                :actName "Edson Cordeiro"@de ;
@@ -4254,6 +4799,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :elif rdf:type owl:NamedIndividual ,
                :MusicAct ,
                :SoloArtist ;
+      :hasGenre :Genre_HipHop ,
+                :Genre_Popmusik ;
       :hasMember <http://www.wikidata.org/entity/Q15807807> ;
       :hasOriginCountry :Deutschland ;
       :actName "Elif"@de ;
@@ -4272,6 +4819,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :elinaduni rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Jazz ;
            :hasMember <http://www.wikidata.org/entity/Q116769> ;
            :hasOriginCountry :Albanien ,
                              :Schweiz ;
@@ -4291,6 +4839,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :emelmathlouthi rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_TripHop ;
                 :hasMember <http://www.wikidata.org/entity/Q469256> ;
                 :hasOriginCountry :Tunesien ;
                 :actName "Emel Mathlouthi"@de ;
@@ -4701,6 +5250,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :fatoumatadiawara rdf:type owl:NamedIndividual ,
                            :MusicAct ,
                            :SoloArtist ;
+                  :hasGenre :Genre_Folk ,
+                            :Genre_Q7972788 ,
+                            :Genre_Tichumaren ;
                   :hasMember <http://www.wikidata.org/entity/Q707255> ;
                   :hasOriginCountry :Mali ;
                   :actName "Fatoumata Diawara"@de ;
@@ -4762,6 +5314,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :felixmeyer rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_Chanson ;
             :hasMember <http://www.wikidata.org/entity/Q1318220> ;
             :hasOriginCountry :Deutschland ;
             :actName "Felix Meyer"@de ;
@@ -4780,6 +5333,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :femikuti rdf:type owl:NamedIndividual ,
                    :MusicAct ,
                    :SoloArtist ;
+          :hasGenre :Genre_Afrobeat ,
+                    :Genre_Funk ,
+                    :Genre_Jazz ;
           :hasMember <http://www.wikidata.org/entity/Q982872> ;
           :hasOriginCountry :Nigeria ;
           :actName "Femi Kuti"@de ;
@@ -4944,6 +5500,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :flomega rdf:type owl:NamedIndividual ,
                   :MusicAct ,
                   :SoloArtist ;
+         :hasGenre :Genre_Soul ;
          :hasMember <http://www.wikidata.org/entity/Q1429022> ;
          :hasOriginCountry :Deutschland ;
          :actName "Flo Mega"@de ;
@@ -5121,6 +5678,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :fredrikastahl rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Jazz ,
+                         :Genre_Popmusik ;
                :hasMember <http://www.wikidata.org/entity/Q440081> ;
                :hasOriginCountry :Schweden ;
                :actName "Fredrika Stahl"@de ;
@@ -5318,6 +5877,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :gabymoreno rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_Blues ;
             :hasMember <http://www.wikidata.org/entity/Q511537> ;
             :hasOriginCountry :Guatemala ;
             :actName "Gaby Moreno"@de ;
@@ -5336,6 +5896,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :gannagryniva rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Jazz ;
               :hasMember <http://www.wikidata.org/entity/Q100606439> ;
               :hasOriginCountry :Deutschland ,
                                 :Ukraine ;
@@ -5377,6 +5938,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :gayesuakyol rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_AnadoluRock ;
              :hasMember <http://www.wikidata.org/entity/Q31190562> ;
              :hasOriginCountry :Trkei ;
              :actName "Gaye Su Akyol"@de ;
@@ -5499,6 +6061,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :giannanannini rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Rockmusik ;
                :hasMember <http://www.wikidata.org/entity/Q232468> ;
                :hasOriginCountry :Italien ;
                :actName "Gianna Nannini"@de ;
@@ -5616,6 +6179,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :glenhansard rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_IndiePop ,
+                       :Genre_Volksmusik ;
              :hasMember <http://www.wikidata.org/entity/Q220010> ;
              :hasOriginCountry :Irland ;
              :actName "Glen Hansard"@de ;
@@ -5687,6 +6252,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :gonzalorubalcaba rdf:type owl:NamedIndividual ,
                            :MusicAct ,
                            :SoloArtist ;
+                  :hasGenre :Genre_Fusion ,
+                            :Genre_Jazz ;
                   :hasMember <http://www.wikidata.org/entity/Q1349890> ;
                   :hasOriginCountry :Kuba ;
                   :actName "Gonzalo Rubalcaba"@de ;
@@ -5771,6 +6338,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :gregormeyle rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_Popmusik ;
              :hasMember <http://www.wikidata.org/entity/Q1314035> ;
              :hasOriginCountry :Deutschland ;
              :actName "Gregor Meyle"@de ;
@@ -5811,6 +6379,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :gtzalsmann rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_Jazz ;
             :hasMember <http://www.wikidata.org/entity/Q90401> ;
             :hasOriginCountry :Deutschland ;
             :actName "Götz Alsmann"@de ;
@@ -5927,6 +6496,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :habibkoit rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Weltmusik ,
+                     :Genre_afrikanischeMusik ;
            :hasMember <http://www.wikidata.org/entity/Q337249> ;
            :hasOriginCountry :Mali ;
            :actName "Habib Koité"@de ;
@@ -6069,6 +6640,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :helgeschneider rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_Jazz ;
                 :hasMember <http://www.wikidata.org/entity/Q76490> ;
                 :hasOriginCountry :Deutschland ;
                 :actName "Helge Schneider"@de ;
@@ -6116,6 +6688,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :hindizahra rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_Popmusik ;
             :hasMember <http://www.wikidata.org/entity/Q463514> ;
             :hasOriginCountry :Marokko ;
             :actName "Hindi Zahra"@de ;
@@ -6134,6 +6707,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :hollycole rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Jazz ,
+                     :Genre_Popmusik ,
+                     :Genre_Postbop ;
            :hasMember <http://www.wikidata.org/entity/Q275041> ;
            :hasOriginCountry :Kanada ;
            :actName "Holly Cole"@de ;
@@ -6174,6 +6750,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :hubertvongoisern rdf:type owl:NamedIndividual ,
                            :MusicAct ,
                            :SoloArtist ;
+                  :hasGenre :Genre_Volksmusik ;
                   :hasMember <http://www.wikidata.org/entity/Q45203> ;
                   :hasOriginCountry :sterreich ;
                   :actName "Hubert von Goisern"@de ;
@@ -6213,6 +6790,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :hughcoltman rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_Jazz ,
+                       :Genre_Lied ;
              :hasMember <http://www.wikidata.org/entity/Q3142229> ;
              :hasOriginCountry :VereinigtesKnigreich ;
              :actName "Hugh Coltman"@de ;
@@ -6231,6 +6810,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :hughmasekela rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_CapeJazz ,
+                        :Genre_Jazz ,
+                        :Genre_afrikanischeMusik ;
               :hasMember <http://www.wikidata.org/entity/Q246594> ;
               :hasOriginCountry :Sdafrika ;
               :actName "Hugh Masekela"@de ;
@@ -6279,6 +6861,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :ibrahimferrer rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_LatinJazz ,
+                         :Genre_SonCubano ;
                :hasMember <http://www.wikidata.org/entity/Q309913> ;
                :hasOriginCountry :Kuba ;
                :actName "Ibrahim Ferrer"@de ;
@@ -6297,6 +6881,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :idasand rdf:type owl:NamedIndividual ,
                   :MusicAct ,
                   :SoloArtist ;
+         :hasGenre :Genre_Jazz ;
          :hasMember <http://www.wikidata.org/entity/Q4976755> ;
          :hasOriginCountry :Schweden ;
          :actName "Ida Sand"@de ;
@@ -6481,6 +7066,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :jandelay rdf:type owl:NamedIndividual ,
                    :MusicAct ,
                    :SoloArtist ;
+          :hasGenre :Genre_Popmusik ;
           :hasMember <http://www.wikidata.org/entity/Q19018> ;
           :hasOriginCountry :Deutschland ;
           :actName "Jan Delay"@de ;
@@ -6767,6 +7353,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :jeremyloops rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_FolkPop ,
+                       :Genre_IndiePop ;
              :hasMember <http://www.wikidata.org/entity/Q15983685> ;
              :hasOriginCountry :Schweiz ,
                                :Sdafrika ;
@@ -6804,6 +7392,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :jimitenor rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_elektronischeMusik ;
            :hasMember <http://www.wikidata.org/entity/Q1389182> ;
            :hasOriginCountry :Finnland ;
            :actName "Jimi Tenor"@de ;
@@ -6934,6 +7523,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :jochendistelmeyer rdf:type owl:NamedIndividual ,
                             :MusicAct ,
                             :SoloArtist ;
+                   :hasGenre :Genre_Popmusik ;
                    :hasMember <http://www.wikidata.org/entity/Q1673149> ;
                    :hasOriginCountry :Deutschland ;
                    :actName "Jochen Distelmeyer"@de ;
@@ -6967,6 +7557,10 @@ xsd:gYear rdf:type rdfs:Datatype .
 :joezawinul rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_CoolJazz ,
+                      :Genre_Fusion ,
+                      :Genre_Jazz ,
+                      :Genre_Soul ;
             :hasMember <http://www.wikidata.org/entity/Q44767> ;
             :hasOriginCountry :USA ,
                               :sterreich ;
@@ -6993,6 +7587,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :johannaborchert rdf:type owl:NamedIndividual ,
                           :MusicAct ,
                           :SoloArtist ;
+                 :hasGenre :Genre_Jazz ;
                  :hasMember <http://www.wikidata.org/entity/Q15821423> ;
                  :hasOriginCountry :Deutschland ;
                  :actName "Johanna Borchert"@de ;
@@ -7011,6 +7606,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :johannasummer rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Jazz ;
                :hasMember <http://www.wikidata.org/entity/Q61754794> ;
                :hasOriginCountry :Deutschland ;
                :actName "Johanna Summer"@de ;
@@ -7029,6 +7625,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :johannesoerding rdf:type owl:NamedIndividual ,
                           :MusicAct ,
                           :SoloArtist ;
+                 :hasGenre :Genre_Popmusik ;
                  :hasMember <http://www.wikidata.org/entity/Q1698105> ;
                  :hasOriginCountry :Deutschland ;
                  :actName "Johannes Oerding"@de ;
@@ -7129,6 +7726,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :johnnyclegg rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_Popmusik ,
+                       :Genre_Reggae ,
+                       :Genre_Worldbeat ;
              :hasMember <http://www.wikidata.org/entity/Q561596> ;
              :hasOriginCountry :Sdafrika ;
              :actName "Johnny Clegg"@de ;
@@ -7177,6 +7777,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :jorane rdf:type owl:NamedIndividual ,
                  :MusicAct ,
                  :SoloArtist ;
+        :hasGenre :Genre_ProgressiveRock ;
         :hasMember <http://www.wikidata.org/entity/Q468714> ;
         :hasOriginCountry :Kanada ;
         :actName "Jorane"@de ;
@@ -7225,6 +7826,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :joydenalane rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_Q846833 ,
+                       :Genre_Soul ;
              :hasMember <http://www.wikidata.org/entity/Q543531> ;
              :hasOriginCountry :Deutschland ;
              :actName "Joy Denalane"@de ;
@@ -7273,6 +7876,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :judithholofernes rdf:type owl:NamedIndividual ,
                            :MusicAct ,
                            :SoloArtist ;
+                  :hasGenre :Genre_Popmusik ;
                   :hasMember <http://www.wikidata.org/entity/Q72429> ;
                   :hasOriginCountry :Deutschland ;
                   :actName "Judith Holofernes"@de ;
@@ -7336,6 +7940,14 @@ xsd:gYear rdf:type rdfs:Datatype .
 :julietavenegas rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_AlternativeRock ,
+                          :Genre_Cumbia ,
+                          :Genre_FolkRock ,
+                          :Genre_IndiePop ,
+                          :Genre_LatinPop ,
+                          :Genre_PopRock ,
+                          :Genre_Popmusik ,
+                          :Genre_Rockmusik ;
                 :hasMember <http://www.wikidata.org/entity/Q232214> ;
                 :hasOriginCountry :Mexiko ;
                 :actName "Julieta Venegas"@de ;
@@ -7444,6 +8056,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :karibremnes rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_Weise ;
              :hasMember <http://www.wikidata.org/entity/Q437736> ;
              :hasOriginCountry :Norwegen ;
              :actName "Kari Bremnes"@de ;
@@ -7587,6 +8200,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :khaled rdf:type owl:NamedIndividual ,
                  :MusicAct ,
                  :SoloArtist ;
+        :hasGenre :Genre_Jazz ,
+                  :Genre_Popmusik ,
+                  :Genre_Ra ;
         :hasMember <http://www.wikidata.org/entity/Q312609> ;
         :hasOriginCountry :Algerien ;
         :actName "Khaled"@de ;
@@ -7720,6 +8336,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :klausdoldinger rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_Fusion ,
+                          :Genre_Jazz ;
                 :hasMember <http://www.wikidata.org/entity/Q62961> ;
                 :hasOriginCountry :Deutschland ;
                 :actName "Klaus Doldinger"@de ;
@@ -8033,6 +8651,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :lafurarnalds rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Ambient ,
+                        :Genre_Experimentalmusik ;
               :hasMember <http://www.wikidata.org/entity/Q292972> ;
               :hasOriginCountry :Island ;
               :actName "Ólafur Arnalds"@de ;
@@ -8210,6 +8830,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :layegros rdf:type owl:NamedIndividual ,
                    :MusicAct ,
                    :SoloArtist ;
+          :hasGenre :Genre_Cumbia ;
           :hasMember <http://www.wikidata.org/entity/Q14280664> ;
           :hasOriginCountry :Argentinien ;
           :actName "La Yegros"@de ;
@@ -8528,6 +9149,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :liniker rdf:type owl:NamedIndividual ,
                   :MusicAct ,
                   :SoloArtist ;
+         :hasGenre :Genre_Soul ;
          :hasMember <http://www.wikidata.org/entity/Q23905341> ;
          :hasOriginCountry :Brasilien ;
          :actName "Liniker"@de ;
@@ -9025,6 +9647,12 @@ xsd:gYear rdf:type rdfs:Datatype .
 :manukatch rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Artrock ,
+                     :Genre_Jazz ,
+                     :Genre_Popmusik ,
+                     :Genre_ProgressiveRock ,
+                     :Genre_Weltmusik ,
+                     :Genre_Worldbeat ;
            :hasMember <http://www.wikidata.org/entity/Q472598> ;
            :hasOriginCountry :Frankreich ;
            :actName "Manu Katché"@de ;
@@ -9117,6 +9745,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :mariajoo rdf:type owl:NamedIndividual ,
                    :MusicAct ,
                    :SoloArtist ;
+          :hasGenre :Genre_Jazz ,
+                    :Genre_LatinJazz ;
           :hasMember <http://www.wikidata.org/entity/Q447738> ;
           :hasOriginCountry :Portugal ;
           :actName "Maria João"@de ;
@@ -9165,6 +9795,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :mariboine rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Weltmusik ;
            :hasMember <http://www.wikidata.org/entity/Q464191> ;
            :hasOriginCountry :Norwegen ;
            :actName "Mari Boine"@de ;
@@ -9220,6 +9851,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :maritlarsen rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_Akustikversion ,
+                       :Genre_FolkPop ,
+                       :Genre_Popmusik ;
              :hasMember <http://www.wikidata.org/entity/Q234428> ;
              :hasOriginCountry :Norwegen ;
              :actName "Marit Larsen"@de ;
@@ -9238,6 +9872,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :mariusneset rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_Jazz ;
              :hasMember <http://www.wikidata.org/entity/Q11988389> ;
              :hasOriginCountry :Norwegen ;
              :actName "Marius Neset"@de ;
@@ -9346,6 +9981,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :maxherre rdf:type owl:NamedIndividual ,
                    :MusicAct ,
                    :SoloArtist ;
+          :hasGenre :Genre_Popmusik ,
+                    :Genre_Q846833 ;
           :hasMember <http://www.wikidata.org/entity/Q216271> ;
           :hasOriginCountry :Deutschland ;
           :actName "Max Herre"@de ;
@@ -9378,6 +10015,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :maxim rdf:type owl:NamedIndividual ,
                 :MusicAct ,
                 :SoloArtist ;
+       :hasGenre :Genre_Europop ;
        :hasMember <http://www.wikidata.org/entity/Q10859842> ;
        :hasOriginCountry :Deutschland ;
        :actName "Maxim"@de ;
@@ -9396,6 +10034,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :maxmutzke rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Popmusik ;
            :hasMember <http://www.wikidata.org/entity/Q65578> ;
            :hasOriginCountry :Deutschland ;
            :actName "Max Mutzke"@de ;
@@ -9414,6 +10053,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :maxprosa rdf:type owl:NamedIndividual ,
                    :MusicAct ,
                    :SoloArtist ;
+          :hasGenre :Genre_Lied ;
           :hasMember <http://www.wikidata.org/entity/Q1777618> ;
           :hasOriginCountry :Deutschland ;
           :actName "Max Prosa"@de ;
@@ -9506,6 +10146,10 @@ xsd:gYear rdf:type rdfs:Datatype .
 :mercedessosa rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Folk ,
+                        :Genre_Q2420447 ,
+                        :Genre_Volksmusik ,
+                        :Genre_populreMusik ;
               :hasMember <http://www.wikidata.org/entity/Q216450> ;
               :hasOriginCountry :Argentinien ;
               :actName "Mercedes Sosa"@de ;
@@ -9553,6 +10197,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :michaelkaeshammer rdf:type owl:NamedIndividual ,
                             :MusicAct ,
                             :SoloArtist ;
+                   :hasGenre :Genre_Jazz ;
                    :hasMember <http://www.wikidata.org/entity/Q1928100> ;
                    :hasOriginCountry :Kanada ;
                    :actName "Michael Kaeshammer"@de ;
@@ -9602,6 +10247,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :michaelschiefel rdf:type owl:NamedIndividual ,
                           :MusicAct ,
                           :SoloArtist ;
+                 :hasGenre :Genre_Jazz ;
                  :hasMember <http://www.wikidata.org/entity/Q91252> ;
                  :hasOriginCountry :Deutschland ;
                  :actName "Michael Schiefel"@de ;
@@ -9651,6 +10297,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :michgerber rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_NuJazz ,
+                      :Genre_Popmusik ,
+                      :Genre_TripHop ;
             :hasMember <http://www.wikidata.org/entity/Q118506> ;
             :hasOriginCountry :Schweiz ;
             :actName "Mich Gerber"@de ;
@@ -9724,6 +10373,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :milow rdf:type owl:NamedIndividual ,
                 :MusicAct ,
                 :SoloArtist ;
+       :hasGenre :Genre_Akustikversion ,
+                 :Genre_FolkRock ;
        :hasMember <http://www.wikidata.org/entity/Q784453> ;
        :hasOriginCountry :Belgien ;
        :actName "Milow"@de ;
@@ -9742,6 +10393,12 @@ xsd:gYear rdf:type rdfs:Datatype .
 :miriammakeba rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_AfrikanischePopulrmusik ,
+                        :Genre_Jazz ,
+                        :Genre_Marabi ,
+                        :Genre_Q17111414 ,
+                        :Genre_Rockmusik ,
+                        :Genre_Weltmusik ;
               :hasMember <http://www.wikidata.org/entity/Q146256> ;
               :hasOriginCountry :Sdafrika ;
               :actName "Miriam Makeba"@de ;
@@ -9775,6 +10432,11 @@ xsd:gYear rdf:type rdfs:Datatype .
 :missli rdf:type owl:NamedIndividual ,
                  :MusicAct ,
                  :SoloArtist ;
+        :hasGenre :Genre_Blues ,
+                  :Genre_Cabaret ,
+                  :Genre_Fusion ,
+                  :Genre_Jazz ,
+                  :Genre_Popmusik ;
         :hasMember <http://www.wikidata.org/entity/Q127340> ;
         :hasOriginCountry :Schweden ;
         :actName "Miss Li"@de ;
@@ -10161,6 +10823,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :nilslandgren rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Jazz ,
+                        :Genre_Jazzfunk ;
               :hasMember <http://www.wikidata.org/entity/Q650668> ;
               :hasOriginCountry :Schweden ;
               :actName "Nils Landgren"@de ;
@@ -10250,6 +10914,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :nilswlker rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Jazz ;
            :hasMember <http://www.wikidata.org/entity/Q1992472> ;
            :hasOriginCountry :Deutschland ;
            :actName "Nils Wülker"@de ;
@@ -10293,6 +10958,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :ninahagen rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_NeueDeutscheWelle ,
+                     :Genre_Punk ,
+                     :Genre_Swing ;
            :hasMember <http://www.wikidata.org/entity/Q159099> ;
            :hasOriginCountry :Deutschland ;
            :actName "Nina Hagen"@de ;
@@ -10318,6 +10986,10 @@ xsd:gYear rdf:type rdfs:Datatype .
 :nneka rdf:type owl:NamedIndividual ,
                 :MusicAct ,
                 :SoloArtist ;
+       :hasGenre :Genre_Popmusik ,
+                 :Genre_Ragga ,
+                 :Genre_RhythmandBlues ,
+                 :Genre_Soul ;
        :hasMember <http://www.wikidata.org/entity/Q291431> ;
        :hasOriginCountry :Deutschland ,
                          :Nigeria ;
@@ -10448,6 +11120,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :omaraportuondo rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_Bolero ,
+                          :Genre_LatinJazz ;
                 :hasMember <http://www.wikidata.org/entity/Q237997> ;
                 :hasOriginCountry :Kuba ;
                 :actName "Omara Portuondo"@de ;
@@ -10607,6 +11281,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :pabloziegler rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Tango ;
               :hasMember <http://www.wikidata.org/entity/Q743869> ;
               :hasOriginCountry :Argentinien ;
               :actName "Pablo Ziegler"@de ;
@@ -10692,6 +11367,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :pascalcomelade rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_Sardana ;
                 :hasMember <http://www.wikidata.org/entity/Q1367152> ;
                 :hasOriginCountry :Frankreich ;
                 :actName "Pascal Comelade"@de ;
@@ -10837,6 +11513,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :philipppoisel rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Popmusik ;
                :hasMember <http://www.wikidata.org/entity/Q114234> ;
                :hasOriginCountry :Deutschland ;
                :actName "Philipp Poisel"@de ;
@@ -11034,6 +11711,10 @@ xsd:gYear rdf:type rdfs:Datatype .
 :rachidtaha rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_ChabiAlgerien ,
+                      :Genre_Ra ,
+                      :Genre_Rockmusik ,
+                      :Genre_Weltmusik ;
             :hasMember <http://www.wikidata.org/entity/Q502990> ;
             :hasOriginCountry :Algerien ,
                               :Frankreich ;
@@ -11273,6 +11954,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :rebekkabakken rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Folk ,
+                         :Genre_Jazz ,
+                         :Genre_Popmusik ;
                :hasMember <http://www.wikidata.org/entity/Q274149> ;
                :hasOriginCountry :Norwegen ;
                :actName "Rebekka Bakken"@de ;
@@ -11313,6 +11997,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :renaubry rdf:type owl:NamedIndividual ,
                    :MusicAct ,
                    :SoloArtist ;
+          :hasGenre :Genre_zeitgenssischeklassischeMusik ;
           :hasMember <http://www.wikidata.org/entity/Q928933> ;
           :hasOriginCountry :Frankreich ;
           :actName "René Aubry"@de ;
@@ -11420,6 +12105,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :rigmorgustafsson rdf:type owl:NamedIndividual ,
                            :MusicAct ,
                            :SoloArtist ;
+                  :hasGenre :Genre_Jazz ;
                   :hasMember <http://www.wikidata.org/entity/Q524499> ;
                   :hasOriginCountry :Schweden ;
                   :actName "Rigmor Gustafsson"@de ;
@@ -11513,6 +12199,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :robertofonseca rdf:type owl:NamedIndividual ,
                          :MusicAct ,
                          :SoloArtist ;
+                :hasGenre :Genre_Jazz ,
+                          :Genre_LatinJazz ;
                 :hasMember <http://www.wikidata.org/entity/Q942707> ;
                 :hasOriginCountry :Kuba ;
                 :actName "Roberto Fonseca"@de ;
@@ -11552,6 +12240,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :robotkoch rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_elektronischeMusik ;
            :hasMember <http://www.wikidata.org/entity/Q18057199> ;
            :hasOriginCountry :Deutschland ;
            :actName "Robot Koch"@de ;
@@ -11600,6 +12289,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :rolandschneider rdf:type owl:NamedIndividual ,
                           :MusicAct ,
                           :SoloArtist ;
+                 :hasGenre :Genre_Jazz ;
                  :hasMember <http://www.wikidata.org/entity/Q2163027> ;
                  :hasOriginCountry :Deutschland ;
                  :actName "Roland Schneider"@de ;
@@ -11664,6 +12354,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :rubngonzlez rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_SonCubano ;
              :hasMember <http://www.wikidata.org/entity/Q458251> ;
              :hasOriginCountry :Kuba ;
              :actName "Rubén González"@de ;
@@ -11811,6 +12502,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :samydeluxe rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_HipHop ;
             :hasMember <http://www.wikidata.org/entity/Q76530> ;
             :hasOriginCountry :Deutschland ;
             :actName "Samy Deluxe"@de ;
@@ -11874,6 +12566,11 @@ xsd:gYear rdf:type rdfs:Datatype .
 :sarahmccoy rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_Blues ,
+                      :Genre_Jazz ,
+                      :Genre_Popmusik ,
+                      :Genre_Rockmusik ,
+                      :Genre_Soul ;
             :hasMember <http://www.wikidata.org/entity/Q93630565> ;
             :hasOriginCountry :VereinigteStaaten ;
             :actName "Sarah McCoy"@de ;
@@ -11963,6 +12660,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :selahsue rdf:type owl:NamedIndividual ,
                    :MusicAct ,
                    :SoloArtist ;
+          :hasGenre :Genre_RhythmandBlues ,
+                    :Genre_Soul ;
           :hasMember <http://www.wikidata.org/entity/Q271679> ;
           :hasOriginCountry :Belgien ;
           :actName "Selah Sue"@de ;
@@ -11982,6 +12681,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :sergentgarcia rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Weltmusik ;
                :hasMember <http://www.wikidata.org/entity/Q472027> ;
                :hasOriginCountry :Frankreich ;
                :actName "Sergent Garcia"@de ;
@@ -12000,6 +12700,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :seven rdf:type owl:NamedIndividual ,
                 :MusicAct ,
                 :SoloArtist ;
+       :hasGenre :Genre_Q846833 ,
+                 :Genre_Soul ;
        :hasMember <http://www.wikidata.org/entity/Q122477> ;
        :hasOriginCountry :Schweiz ;
        :actName "Seven"@de ;
@@ -12108,6 +12810,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :siljenergaard rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Jazz ;
                :hasMember <http://www.wikidata.org/entity/Q236381> ;
                :hasOriginCountry :Norwegen ;
                :actName "Silje Nergaard"@de ;
@@ -12445,6 +13148,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :sophiehunger rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Folk ,
+                        :Genre_Jazz ,
+                        :Genre_Volksmusik ;
               :hasMember <http://www.wikidata.org/entity/Q260336> ;
               :hasOriginCountry :Schweiz ;
               :actName "Sophie Hunger"@de ;
@@ -12679,6 +13385,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :susanweinert rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Jazz ;
               :hasMember <http://www.wikidata.org/entity/Q2368967> ;
               :hasOriginCountry :Deutschland ;
               :actName "Susan Weinert"@de ;
@@ -12794,6 +13501,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :tanialibertad rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_lateinamerikanischeMusik ;
                :hasMember <http://www.wikidata.org/entity/Q368927> ;
                :hasOriginCountry :Peru ;
                :actName "Tania Libertad"@de ;
@@ -13193,6 +13901,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :theesuhlmann rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Popmusik ;
               :hasMember <http://www.wikidata.org/entity/Q78281> ;
               :hasOriginCountry :Deutschland ;
               :actName "Thees Uhlmann"@de ;
@@ -13564,6 +14273,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :thomasd rdf:type owl:NamedIndividual ,
                   :MusicAct ,
                   :SoloArtist ;
+         :hasGenre :Genre_DeutscherHipHop ;
          :hasMember <http://www.wikidata.org/entity/Q75317> ;
          :hasOriginCountry :Deutschland ;
          :actName "Thomas D"@de ;
@@ -13643,6 +14353,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :tillbrnner rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_Jazz ;
             :hasMember <http://www.wikidata.org/entity/Q386267> ;
             :hasOriginCountry :Deutschland ;
             :actName "Till Brönner"@de ;
@@ -13802,6 +14513,8 @@ xsd:gYear rdf:type rdfs:Datatype .
 :tomodell rdf:type owl:NamedIndividual ,
                    :MusicAct ,
                    :SoloArtist ;
+          :hasGenre :Genre_FolkPop ,
+                    :Genre_IndiePop ;
           :hasMember <http://www.wikidata.org/entity/Q4027095> ;
           :hasOriginCountry :VereinigtesKnigreich ;
           :actName "Tom Odell"@de ;
@@ -14026,6 +14739,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :utelemper rdf:type owl:NamedIndividual ,
                     :MusicAct ,
                     :SoloArtist ;
+           :hasGenre :Genre_Jazz ,
+                     :Genre_Kabarett ,
+                     :Genre_klassischeMusik ;
            :hasMember <http://www.wikidata.org/entity/Q60659> ;
            :hasOriginCountry :Deutschland ;
            :actName "Ute Lemper"@de ;
@@ -14185,6 +14901,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :voodoojrgens rdf:type owl:NamedIndividual ,
                        :MusicAct ,
                        :SoloArtist ;
+              :hasGenre :Genre_Austropop ;
               :hasMember <http://www.wikidata.org/entity/Q27183530> ;
               :hasOriginCountry :sterreich ;
               :actName "Voodoo Jürgens"@de ;
@@ -14233,6 +14950,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :wallisbird rdf:type owl:NamedIndividual ,
                      :MusicAct ,
                      :SoloArtist ;
+            :hasGenre :Genre_Folk ;
             :hasMember <http://www.wikidata.org/entity/Q444966> ;
             :hasOriginCountry :Irland ;
             :actName "Wallis Bird"@de ;
@@ -14420,6 +15138,9 @@ xsd:gYear rdf:type rdfs:Datatype .
 :yanntiersen rdf:type owl:NamedIndividual ,
                       :MusicAct ,
                       :SoloArtist ;
+             :hasGenre :Genre_Klassizismus ,
+                       :Genre_MinimalMusic ,
+                       :Genre_Rockmusik ;
              :hasMember <http://www.wikidata.org/entity/Q157256> ;
              :hasOriginCountry :Frankreich ;
              :actName "Yann Tiersen"@de ;
@@ -14438,6 +15159,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 :yasminehamdan rdf:type owl:NamedIndividual ,
                         :MusicAct ,
                         :SoloArtist ;
+               :hasGenre :Genre_Popmusik ;
                :hasMember <http://www.wikidata.org/entity/Q195788> ;
                :hasOriginCountry :Libanon ;
                :actName "Yasmine Hamdan"@de ;
