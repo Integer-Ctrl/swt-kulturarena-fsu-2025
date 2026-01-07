@@ -2,7 +2,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/kulturarena/>
 
 SELECT ?musicAct ?genreName ?mbID WHERE {
-  ?musicAct ex:actName "Yasmine Hamdan" ;
+  ?musicAct ex:actName "Yasmine Hamdan"@de ;
      		ex:hasGenre ?genre ;
   			ex:musicBrainzId ?mbID .
   ?genre rdfs:label ?genreName .

@@ -8,6 +8,7 @@ PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
 INSERT {
+  # Ist auf jeden Fall ein SoloArtist, da Daten nur an Person stehen
   ?act a :SoloArtist .
 
   ?act :hasGenre ?genreIRI ;
