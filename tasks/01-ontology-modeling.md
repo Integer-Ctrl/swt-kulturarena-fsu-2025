@@ -65,5 +65,3 @@ Yasmine Hamdan	Libanon	              2015
 ## Abzugeben ist:
 
 `kulturarena-ontology.ttl`: Die Ontologie im Turtle-Format
-
-Das Bestehen dieses Projektabschnitts ist Zulassungsvoraussetzung für die Prüfung.

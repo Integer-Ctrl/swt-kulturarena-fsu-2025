@@ -12,6 +12,13 @@
     rdfs:comment "Ontologie zur Repräsentation von Konzerten der Kulturarena Jena."@de .
 
 ####################
+# Datatypes
+####################
+
+###  http://www.w3.org/2001/XMLSchema#gYear
+xsd:gYear rdf:type rdfs:Datatype .
+
+####################
 # Classes
 ####################
 
@@ -116,7 +123,7 @@
     rdfs:domain :Concert ;
     rdfs:range xsd:gYear .
 
-:musicBrainzId a owl:DatatypeProperty , owl:FunctionalProperty ;
+:musicBrainzId a owl:DatatypeProperty ;
     rdfs:label "MusicBrainz Music-Act ID"@de ;
     rdfs:comment "MusicBrainz ID eines Music-Acts."@de ;
     rdfs:domain :MusicAct ;
@@ -138,13 +145,13 @@
     rdfs:label "Name des Music-Acts"@de ;
     rdfs:comment "Name des Music-Acts."@de ;
     rdfs:domain :MusicAct ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:langString .
 
 :personName a owl:DatatypeProperty ;
     rdfs:label "Name der Person"@de ;
     rdfs:comment "Vor- und Zuname einer Person."@de ;
     rdfs:domain :Person ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:langString .
 
 ####################
 # Individuals

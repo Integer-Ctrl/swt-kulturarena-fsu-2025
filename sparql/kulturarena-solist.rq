@@ -1,0 +1,1 @@
+SELECT * WHERE { ?solist a <http://example.org/kulturarena/Solist> }

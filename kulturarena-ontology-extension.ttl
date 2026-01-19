@@ -1,0 +1,94 @@
+@base           <http://example.org/kulturarena/> .
+@prefix :       <http://example.org/kulturarena/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+#################################################################
+# Ontology Extension
+# Klassifikation der Musikdarbieter in Solisten und Ensembles
+#################################################################
+
+# Hilfreich für Inferenz: Mitgliedschaft in beide Richtungen nutzbar machen
+:hasMember owl:inverseOf :memberOf .
+
+# Ein SoloArtist ist genau ein MusicAct mit genau 1 Mitglied (Person).
+:Solist owl:equivalentClass [
+  a owl:Class ;
+  owl:intersectionOf (
+    :MusicAct
+    [ a owl:Restriction ;
+      owl:onProperty :hasMember ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger
+    ]
+  )
+] .
+
+# Alignment mit der Anfrage aus der Übung:
+:Solist owl:equivalentClass :SoloArtist .
+
+# Ein Ensemble ist ein MusicAct mit mindestens 2 Mitgliedern (Personen).
+:Ensemble owl:equivalentClass [
+  a owl:Class ;
+  owl:intersectionOf (
+    :MusicAct
+    [ a owl:Restriction ;
+      owl:onProperty :hasMember ;
+      owl:minCardinality "2"^^xsd:nonNegativeInteger
+    ]
+  )
+] .
+
+#################################################################
+# Ontology Extension
+# Internationale Konzerte: Act hat Herkunftsland != Deutschland
+#################################################################
+
+:NonGermanCountry a owl:Class ;
+    rdfs:label "Nicht-deutsches Land"@de ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            :Country
+            [
+                a owl:Class ;
+                owl:complementOf [
+                    a owl:Class ;
+                    owl:oneOf ( :Deutschland )
+                ]
+            ]
+        )
+    ] .
+
+:NonGermanMusicAct a owl:Class ;
+    rdfs:label "Musikact (nicht-deutsche Herkunft)"@de ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            :MusicAct
+            [
+                a owl:Restriction ;
+                owl:onProperty :hasOriginCountry ;
+                owl:someValuesFrom :NonGermanCountry
+            ]
+        )
+    ] .
+
+:InternationalConcert a owl:Class ;
+    rdfs:subClassOf :Concert ;
+    rdfs:label "Internationales Konzert"@de ;
+    rdfs:comment "Konzert mit mindestens einem Musikact, der (auch) ein Herkunftsland ungleich Deutschland hat."@de ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            :Concert
+            [
+                a owl:Restriction ;
+                owl:onProperty :hasMusicAct ;
+                owl:someValuesFrom :NonGermanMusicAct
+            ]
+        )
+    ] .
+
+# Alignment mit der Anfrage aus der Übung:
+:InternationalConcert owl:equivalentClass :InternationalesKonzert .

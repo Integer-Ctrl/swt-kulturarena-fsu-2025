@@ -27,4 +27,3 @@ Competency Questions in SPARQL-Anfragen übersetzen
 
 - `kulturarena-ontology.ttl`: Die Ontologie im Turtle-Format
 - `kulturarena-cq<n>.rq`: SPARQL-Anfragen (`<n>` ist Platzhalter für die Competency Question-Nummer)
-Das Bestehen dieses Projektabschnitts ist Zulassungsvoraussetzung für die Prüfung.

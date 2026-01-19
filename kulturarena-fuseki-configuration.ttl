@@ -1,0 +1,41 @@
+PREFIX :        <#>
+PREFIX fuseki:  <http://jena.apache.org/fuseki#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ja:      <http://jena.hpl.hp.com/2005/11/Assembler#>
+
+[] rdf:type fuseki:Server ;
+   fuseki:services (
+     :service
+   ) .
+
+:service rdf:type fuseki:Service ;
+    fuseki:name "kulturarena" ;
+    fuseki:endpoint [
+        fuseki:operation fuseki:query ;
+        fuseki:name "sparql"
+    ] ;
+    fuseki:endpoint [
+        fuseki:operation fuseki:update ;
+        fuseki:name "sparql" ;
+    ] ;
+    fuseki:dataset :dataset ;
+    .
+
+# Dataset with only the default graph.
+:dataset rdf:type       ja:RDFDataset ;
+    ja:defaultGraph     :model_inf ;
+     .
+
+# The inference model
+:model_inf a ja:InfModel ;
+     ja:baseModel :baseModel ;
+     ja:reasoner [
+         ja:reasonerURL <http://jena.hpl.hp.com/2003/OWLFBRuleReasoner>
+     ] .
+
+# The base data.
+:baseModel a ja:MemoryModel ;
+    ja:content [ja:externalContent <file:kulturarena-data.ttl> ] ;
+    ja:content [ja:externalContent <file:kulturarena-ontology-extension.ttl> ] ;
+    .

@@ -174,10 +174,9 @@ Pflegen Sie mit Hilfe von SPARQL-Generate und SPARQL Update Daten in die Ontolog
 
 ## Abzugeben ist ein .zip Archiv mit folgendem Inhalt:
 
-kulturarena-ontology.ttl: Die Ontologie im Turtle-Format
-kulturarena-cq<n>.rq: SPARQL-Anfragen (<n> ist Platzhalter für die Competency Question-Nummer)
-kulturarena-website-konzerte.rqg: Konzerte SPARQL-Generate Anfrage
-kulturarena-wikidata-musikdarbieter.ru: Musikdarbieter SPARQL Update Anfrage
-ggf. kulturarena-wikidata-mitglieds.ru: Ensemble-Mitglieder SPARQL Update Anfrage
-kulturarena-data.ttl: Eingepflegte Daten im Turtle-Format
-Das Bestehen dieses Projektabschnitts ist Zulassungsvoraussetzung für die Prüfung.
+- kulturarena-ontology.ttl: Die Ontologie im Turtle-Format
+- kulturarena-cq<n>.rq: SPARQL-Anfragen (<n> ist Platzhalter für die Competency Question-Nummer)
+- kulturarena-website-konzerte.rqg: Konzerte SPARQL-Generate Anfrage
+- kulturarena-wikidata-musikdarbieter.ru: Musikdarbieter SPARQL Update Anfrage
+- ggf. kulturarena-wikidata-mitglieds.ru: Ensemble-Mitglieder SPARQL Update Anfrage
+- kulturarena-data.ttl: Eingepflegte Daten im Turtle-Format
